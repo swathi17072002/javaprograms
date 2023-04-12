@@ -1,0 +1,9 @@
+//algorithm to swap two numbers
+
+1.start
+2.read number1,number2
+3.store the value of number1 in swap_variable<--number1
+4.store the value of number2 in number1<--number2
+5.store the value of  swap_variable in number1<--swap_variable
+6.print number1,number2
+7.stop

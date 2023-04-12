@@ -1,0 +1,9 @@
+//algorithm to find whether the student is eligible to take the admission in a college(if percentage is greater than 85)
+
+step1 : start
+step2 : read student_percentage
+step3 : if student_percentage is greater than 85
+            print "student  is eligible to take admission"
+        else
+            print "student  is not eligible to take admission"
+step4 : stop

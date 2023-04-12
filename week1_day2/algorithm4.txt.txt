@@ -1,0 +1,15 @@
+//algorithm to find greater number among three numbers
+
+step1 : start
+step2 : read number1,number2,number3
+step3 : if number1 is greater than the number2 
+           if number1 is greater than the number3
+              print number1 is greater
+           else
+              print number3 is greater
+        else
+           if number2 is greater than the number3 
+              print number2 is greater
+           else
+              print number3 is greater
+step4 : stop

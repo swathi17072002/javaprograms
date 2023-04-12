@@ -1,0 +1,9 @@
+//algorithm to find whether a person is eligible to vote or not(age>18 eligible to vote)
+
+step1 : start
+step2 : read the age
+step3 : if (age is greater than 18)
+            print"eligible to vote"
+        else
+            print"not eligible to vote"
+step4 : stop

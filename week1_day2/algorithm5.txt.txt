@@ -1,0 +1,12 @@
+//algorithm to find the gross salary of an employee.given the basic salary,DA,HRA.
+ gross salary = (basic salary + DA + HRA)
+ DA ---50% of the basic salary
+ HRA---20% of the basic salary
+
+step1 : start
+step2 : read basic_salary
+step3 : calculate the value of the DA by using the formula DA<---(50*basic_salary)/100
+step4 : calculate the value of the HRA by using the formula HRA<---(20*basic_salary)/100
+step5 : calculate the value of the gross_salary using the formula gross_salary<---(basic_salary + DA + HRA)
+step6 : print gross_salary
+step7 : end

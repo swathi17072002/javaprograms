@@ -1,0 +1,6 @@
+//algorithm to find the area of rectangle
+step1 : start
+step2 : read length,breadth
+step3 : find the area of the rectangle by using the formula<---length*breadth
+step4 : print area
+step5 : stop
