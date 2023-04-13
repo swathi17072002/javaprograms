@@ -1,0 +1,11 @@
+//algorithm to reverse an positive integer
+
+step1 : start
+step2 : read the positive integer number 
+step3 : initialize rev_number<--0
+step4 : repeatedly execute the steps (i)-(iii) until (number!=0)
+        i. digit<--number%10
+        ii. rev_number<--(rev_number*10)+digit
+        iii.number<--number/10
+step5 : print rev_number
+step6 : stop

@@ -1,0 +1,11 @@
+//algorithm to find the factorial of n
+
+step1 : start
+step2 : read the number n
+step3 : initialize factorial<--1,i<--1,count<--1
+step4 : repeatedly execute the steps (i)-(iii) until(count<=n)
+        (i) factorial<--factorial*i
+        (ii) i<--i+1
+        (iii) count<--count+1
+step5 : print factorial
+step6 : stop

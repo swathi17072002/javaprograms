@@ -1,0 +1,7 @@
+//algorithm to find the sum of first n natural numbers using formula
+
+step1 : start
+step2 : read the number n
+step3 : find the sum of first n natural numbers by using the formula sum<--n(n+1)/2
+step5 : print sum
+step6 : stop
