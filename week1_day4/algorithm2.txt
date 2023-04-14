@@ -1,0 +1,15 @@
+//algorithm to find whether 3 digit number is armstrong or not
+
+step1 : start
+step2 : read the 3 digit number as number
+step3 : initialize sum<--0
+step4 : intialize dup_number with number dup_number<--number
+step5 : repeatedly execute the steps (i)-(iii) until (number!=0)
+        i. digit<--number%10
+        ii. sum<--sum+(digit*digit*digit)
+        iii.number<--number/10
+step6 : if sum is equals to dup_number
+           print"number is armstrong"
+        else
+           print"number is  not armstrong"
+step6 : stop

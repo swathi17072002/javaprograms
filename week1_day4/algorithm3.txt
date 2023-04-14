@@ -1,0 +1,11 @@
+//algorithm to find the sum of any n numbers
+
+step1 : start
+step2 : read the number n
+step3 : initialize sum<--0,count<--1
+step4 : repeatedly execute the steps (i) -(iii) until(count<=n)
+           i. read the number
+           ii. sum<---sum+number
+           iii.count<---count+1
+step5 : print sum
+step6 : stop

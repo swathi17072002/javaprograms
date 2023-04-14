@@ -1,0 +1,16 @@
+//algorithm to find whether given positive integer is strong number or not
+
+step1 : start
+step2 : read the positive integer number as n
+step3 : initialize the sum <--0
+step4 : store the value of n in temp variable temp<--n
+step5 : repeadly execute the steps (i)-(iii) until (n!=0)
+          i . digit<--n%10
+          ii. factorial=digit!
+          iii.n<--n/10
+          iv.sum<--sum+factorial
+step6 : if(sum==temp)
+           print"temp is a strong number"
+        else
+           print"temp is not a strong number"
+step7 : stop
