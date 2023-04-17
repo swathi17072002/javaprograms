@@ -1,0 +1,27 @@
+//algorithm to find year is leap or not
+
+step1 : start
+step2 : read the year
+step3 : if (year%4==0)
+         {
+           if ( year%100==0)
+            {
+               if (year%400==0)
+                {
+                  print "year is leap year"
+                }
+               else
+                {
+                  print "year is not a leap year"
+                }
+            }
+           else
+            {
+               print "year is a leap year"
+            }
+         }
+        else
+         { 
+           print "year is not a leap year"
+         }
+step4 : stop

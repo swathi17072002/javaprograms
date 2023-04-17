@@ -1,0 +1,23 @@
+//algorithm to find whether a given positive integer is a prime number or not
+
+step1 : start
+step2 : read the number as n
+step3 : initialize flag<--0,i<--1
+step4 : if (n==1)
+          {
+            print " n is not a prime number" ,then go to step6
+          }
+        else
+         {
+            repeatedly execute the steps i-ii until (i<=n)
+                i). if (n%i==0)
+                      {
+                       flag<--flag+1
+                      }
+               ii). i<--i+1
+          }
+step5 : if (flag==2)
+           print "n is a prime number"
+        else 
+           print "n not a is a prime number"
+step6 : stop

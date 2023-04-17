@@ -1,0 +1,8 @@
+//algorithm to print bitlabs 10 times
+
+step1 : start
+step2 : initialize count<--1
+step3 : repeatedly execute the steps i-ii until (count<=10)
+           i. print "bitlabs"
+           ii. count<--count+1
+step4 :stop
