@@ -1,7 +1,0 @@
-//algorithm to find the simple intrest
-
-step1 : start
-step2 : read principal,rate_of_intrest,no_of_times,time
-step3 : calculate the compound intrest by using the formula compound_intrest<--(principal(1+(rate_of_intrest/no_of_times))**(no_of_times*time))-principal
-step4 : print compound_intrest
-step5 : stop
