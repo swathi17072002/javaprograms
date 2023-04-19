@@ -1,0 +1,13 @@
+//algorithm to find the difference between even sum and odd sum from 1 t0 100
+
+step1 : start
+step2 : initialize i<--1,even_sum<--0,odd_sum<--0
+step3 : repeatedly execute the steps i-ii until (i<=100)
+            i . if (i%2!=0)
+                    odd_sum=odd_sum+i
+                else
+                    even_sum=even_sum+i
+            ii. i<--i+1
+step4 : assign difference<-- even_sum-odd_sum
+step5 : print difference
+step6 : stop
