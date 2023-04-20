@@ -1,7 +1,7 @@
-//algorithm to find the percentage of marks of 3 students
+//algorithm to find the percentage of marks of 3 subjects
 
 step1 : start
-step2 : read the marks in 3 subjects into the variables subject1_marks,subject2_marks,subject3_marks
+step2 : read the marks of 3 subjects into the variables subject1_marks,subject2_marks,subject3_marks
 step3 : find the percentage of marks by using the formula percentage<---(subject1_marks+subject2_marks+subject3_marks)/3
 step4 : print percentage
 step5 : stop
