@@ -9,7 +9,7 @@ step5 : repeatedly execute the steps (i)-(iii) until (number!=0)
         ii. sum<--sum+(digit*digit*digit)
         iii.number<--number/10
 step6 : if sum is equals to dup_number
-           print"number is armstrong"
+           print"dup_number is armstrong"
         else
-           print"number is  not armstrong"
-step6 : stop
+           print"dup_number is  not armstrong"
+step7 : stop
