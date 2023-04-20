@@ -1,7 +1,7 @@
 //algorithm to find whether the number is polindrome or not
 
 step1 : start
-step2 : read the positive integer number 
+step2 : read the positive integer number as number 
 step3 : initialize rev_number<--0
 step4 : initialize dup_number with the value of number dup_number<--number
 step5 : repeatedly execute the steps (i)-(iii) until (number!=0)
@@ -9,7 +9,7 @@ step5 : repeatedly execute the steps (i)-(iii) until (number!=0)
         ii. rev_number<--(rev_number*10)+digit
         iii.number<--number/10
 step6 : if dup_number is equals to rev_number
-           print"number is polindrome"
+           print"dup_number is polindrome"
         else
-           print"number is  not polindrome"
+           print"dup_number is  not polindrome"
 step7 : stop
