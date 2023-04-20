@@ -2,7 +2,7 @@
 
 step1 : start
 step2 : read the number as n
-step3 : initialize flag<--0,i<--1
+step3 : initialize number_of_factors<--0,i<--1
 step4 : if (n==1)
           {
             print " n is not a prime number" ,then go to step6
@@ -12,12 +12,12 @@ step4 : if (n==1)
             repeatedly execute the steps i-ii until (i<=n)
                 i). if (n%i==0)
                       {
-                       flag<--flag+1
+                       number_of_factors<--number_of_factors+1
                       }
                ii). i<--i+1
           }
-step5 : if (flag==2)
+step5 : if ((number_of_factors)==2)
            print "n is a prime number"
         else 
-           print "n not a is a prime number"
+           print "n is not a prime number"
 step6 : stop
