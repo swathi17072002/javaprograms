@@ -6,7 +6,7 @@ step3 : initialize the sum <--0
 step4 : store the value of n in temp variable temp<--n
 step5 : repeadly execute the steps (i)-(iii) until (n!=0)
           i . digit<--n%10
-          ii. factorial=digit!
+          ii. factorial<--digit!
           iii.n<--n/10
           iv.sum<--sum+factorial
 step6 : if(sum==temp)
