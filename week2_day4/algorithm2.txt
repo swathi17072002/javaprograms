@@ -1,0 +1,24 @@
+you are purchasing a mobile from a shop. shop owner want to give discount
+  if(cost>=100000) -----10% discount
+  if(cost<100000 and cost>50000) -----5% discount
+  in all other cases-----2% discount
+
+  20% GST will be added(on the actual price only)
+
+you need to write an algorithm to determine the total price of the mobile phone
+
+
+
+step1 : start
+step2 : read the amount
+step3 : calculate the GST by using the formula GST<---(20*amount)/100
+step4 : if (amount>=100000)
+                discount<--(10*amount)/100
+        else if (cost<100000 and cost>50000)
+                discount<--(5*amount)/100
+        else
+                discount<--(2*amount)/100
+               
+step5 : final_amount<--(amount-discount)+GST
+step6 : print final_amount
+step7 : stop
