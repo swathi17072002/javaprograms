@@ -4,15 +4,15 @@ step1 : start
 step2 : read the positive number as n
 step3 : initialize count<--2,num_1<--0,num_2<--1
 step4 : if  (n==1)
-          print num_1
-step5 : else if (n==2)
+            print num_1
+        else if (n==2)
             print num_1,num_2
-step6 : else execute steps a and b
-          a. print num_1,num2
-          b. repeatedly execute the steps (i)-(v) until (count<n)
-               i.  next_num<---num_1+num_2
-               ii. print next_num
-               iii.num1<--num_2
-               iv. num2<--next_num
-               v.  count<--count+1
-step7 : stop
+        else execute steps a and b
+            a. print num_1,num_2
+            b. repeatedly execute the steps (i)-(v) until (count<n)
+                 i.  next_num<---num_1+num_2
+                 ii. print next_num
+                 iii.num_1<--num_2
+                 iv. num_2<--next_num
+                 v.  count<--count+1
+step5 : stop
