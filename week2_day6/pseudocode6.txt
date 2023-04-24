@@ -1,0 +1,14 @@
+//pseudocode to find whether a person is eligible to vote or not(age>18 eligible to vote)
+
+begin
+     declare the variable age
+     read the positive integer age
+     if(age>18)
+     {
+        print"eligible to vote"
+     }
+    else
+     {
+        print"not eligible to vote"
+     }
+stop

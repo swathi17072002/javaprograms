@@ -1,0 +1,29 @@
+//pseudocode to find greater number among three numbers
+
+begin
+     declare the variables number1,number and number3
+     read the number1,number and number3
+     if (number1>number2) 
+     {
+        if (number1>number3)
+         {
+            print "number1 is greater"
+         }
+        else
+         {
+            print "number3 is greater"
+         }
+     }
+    else
+     {
+        if (number2>number3) 
+         {
+            print "number2 is greater"
+         }
+        else
+         {
+            print "number3 is greater"
+         }
+      }
+stop
+     

@@ -1,0 +1,8 @@
+//pseudocode to find the area of rectangle
+
+begin
+     declare the variables length,breadth,area
+     read the length and breadth
+     compute area = length*breadth
+     print area
+stop

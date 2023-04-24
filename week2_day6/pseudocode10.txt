@@ -1,0 +1,14 @@
+//pseudocode to find the factorial of n
+
+begin
+     declare the variables n,factorial,i,count
+     read the positive integer n
+     initialize factorial=1,i=1,count=1
+     while(count<=n)
+     {
+        factorial=factorial*i
+        i=i+1
+        count=count+1
+     }
+     print factorial
+stop

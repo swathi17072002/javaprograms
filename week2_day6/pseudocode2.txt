@@ -1,0 +1,12 @@
+
+//pseudocode to swap two numbers
+
+begin
+     declare the variables number1,number2 and swap_variable
+     read the number1 and number2
+     swap_variable=number1
+     number1=number2
+     number2=swap_variable
+     print number1,number2
+stop
+     

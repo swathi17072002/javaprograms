@@ -1,0 +1,13 @@
+//pseudocode to find the gross salary of an employee.given the basic salary,DA,HRA.
+ gross salary = (basic salary + DA + HRA)
+ DA ---50% of the basic salary
+ HRA---20% of the basic salary
+
+begin
+     declare the variables basic_salary,DA,HRA,gross_salary
+     read the basic_salary
+     compute DA = (50*basic_salary)/100
+     compute HRA = (20*basic_salary)/100
+     compute gross_salary = (basic_salary + DA + HRA)
+     print gross_salary
+stop

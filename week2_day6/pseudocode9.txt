@@ -1,0 +1,15 @@
+//pseudocode to find the sum of first n even numbers
+
+begin
+     declare the variables n,i,sum,count
+     read the positive integer n
+     initialize i=2,sum=0,count=1
+     while(count<=n)
+      {
+          sum=sum+i
+          i=i+2
+          count=count+1
+      }
+     print sum
+stop
+     

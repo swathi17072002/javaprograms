@@ -1,0 +1,15 @@
+//pseudocode to find whether the student is eligible to take the admission in a college(if percentage is greater than 85)
+
+begin
+     declare the variable student_percentage
+     read the student_percentage
+     if(student_percentage>85)
+      {  
+          print "student  is eligible to take admission" 
+    
+      }
+     else
+      {
+           print "student  is not eligible to take admission"
+      }
+stop

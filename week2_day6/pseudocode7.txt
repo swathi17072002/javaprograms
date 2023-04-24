@@ -1,0 +1,15 @@
+//pseudocode to find whether a number is even or odd
+
+begin
+     declare the variable n
+     read the integer n
+     if (n%2==0)
+     {
+         print "n is even"
+     }     
+    else
+     {
+         print"n is odd"
+     }
+stop  
+     

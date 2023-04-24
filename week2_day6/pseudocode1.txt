@@ -1,0 +1,8 @@
+//pseudocode to find the percentage of marks of 3 subjects
+
+begin
+     declare the variables subject1_marks,subject2_marks,subject3_marks,percentage
+     read the subject1_marks,subject2_marks and subject3_marks
+     compute percentage=(subject1_marks+subject2_marks+subject3_marks)/3
+     print percentage
+stop
