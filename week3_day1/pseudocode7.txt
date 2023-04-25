@@ -1,0 +1,28 @@
+//pseudocode to print first n terms of a fibonacci sequence
+
+begin
+     declare the variables n,count,num_1,num_2,next_num
+     read the positive integer n
+     initialize count=2,num_1=0,num_2=1
+     if(n==1)
+     {
+          print num_1
+     }
+    else if(n==2)
+     {
+          print num_1,num_2
+     }
+    else
+     {
+          print num_1,num_2
+          while(count<n)
+          {
+               next_num=num_1+num_2
+               print next_num
+               num_1=num_2
+               num_2=next_num
+               count=count+1
+          }
+     }
+stop
+     

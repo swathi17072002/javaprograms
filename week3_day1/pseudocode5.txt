@@ -1,0 +1,23 @@
+//pseudocode to find whether the number is polindrome or not
+
+begin
+     declare the variables number,rev_number,digit,dup_number
+     read the number 
+     initialize rev_number=0,dup_number=number
+     while(number!=0)
+     {
+         digit=number%10
+         rev_number=(rev_number*10)+digit
+         number=number/10
+     }
+     if(dup_number==rev_number)
+     {
+          print"dup_number is polindrome"
+     }
+    else
+     {
+          print"dup_number is  not polindrome" 
+     }
+stop
+     
+     

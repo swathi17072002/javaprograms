@@ -1,0 +1,14 @@
+//pseudocode to reverse an positive integer
+
+begin
+     declare the variables number,rev_number,digit
+     read the number
+     initialize rev_number=0
+     while(number!=0)
+     {
+         digit=number%10
+         rev_number=(rev_number*10)+digit
+         number=number/10
+     }
+     print rev_number
+stop

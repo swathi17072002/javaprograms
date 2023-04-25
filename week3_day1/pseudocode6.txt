@@ -1,0 +1,21 @@
+//pseudocode to find whether 3 digit number is armstrong or not
+
+begin
+     declare the variables number,sum,digit,dup_number
+     read the 3 digit number as number
+     initialize sum=0,dup_number=number
+     while(number!=0)
+     {
+         digit=number%10
+         sum=sum+(digit*digit*digit)
+         number=number/10
+     }
+     if(dup_number==sum)
+     {
+          print"dup_number is armstrong"
+     }
+    else
+     {
+          print"dup_number is  not armstrong" 
+     }
+stop

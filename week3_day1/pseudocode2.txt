@@ -1,0 +1,19 @@
+//pseudocode to find the product of first n odd numbers
+
+begin
+     declare the variables n,i,product,count
+     read the number n
+     initialize i=1,product=1,count=1
+     while(count<=n)
+     {
+         product=product*i
+         i=i+2
+         count=count+1
+     }
+     print product
+stop
+     
+     
+
+     
+     

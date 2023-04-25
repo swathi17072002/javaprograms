@@ -1,0 +1,14 @@
+//pseudocode to find the sum of any n numbers
+ 
+ begin
+      declare the variables n,sum,count,number
+      read n
+      initialize sum=0,count=1
+      while(count<=n)
+      {
+          read the number
+          sum=sum+number
+          count=count+1
+      }
+      print sum
+stop

@@ -1,0 +1,9 @@
+//pseudocode to find the sum of first n natural numbers using formula
+
+begin
+     declare the variables n,sum
+     read the number n
+     compute sum=n(n+1)/2
+     print sum
+stop
+     
