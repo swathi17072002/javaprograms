@@ -1,0 +1,63 @@
+Step1: Start
+step2: Insert ATM card into ATM machine
+step3: check the card is valid or not
+step4: if the card is not valid hold the card then goto step9
+step5: select the language
+step6: enter the pin
+step7: select any option
+        a. Cash withdrawal 
+        b. Account balance inquiry 
+        c. Transfer funds 
+        d. Bill payment 
+        e. Change pin
+
+step8: if you choose "cash withdrawal" follow (i-iv) steps9 
+                 i. select savings/current
+                 ii enter the amount
+                iii.collect the cash 
+                 iv.retrieve your card 
+
+      else if you choose "Account balance inquiry" follow (i-iii) steps and go to step9
+                 i. select from account type - current or savings
+                ii. displays the balance
+                iii.retrieve your card
+
+      else if you choose "Transfer funds" follow  ( i-vii  )steps and go to step9
+                 i. select bank
+                ii. select savings/current
+               iii. enter the required details - bank account number/ bank name
+                iv. choose bank account type
+                 v. enter the amount
+                vi. it displays "succesfully transferred"
+               vii.retrieve your card
+
+      else if you choose " Bill payment " follow ( i-vi  ) steps and go to step9
+                i. select any of the options( a)water, b)electricity , c)Gas, d)telephone )  
+               ii. enter consumer's account number
+              iii. it displays the consumer's account number,name,billing amount
+               iv. click "yes"
+                v. it displays "transaction completed succesfully"
+               vi .retrieve your card
+
+       else if you choose " Change pin " follow ( i-v  ) steps and go to step9
+                i. select language
+               ii. enter new pin
+              iii. re-enter the new pin
+               iv. it displays "You are succesfully changed the atm pin"
+                v. retrieve your card
+
+step9.Stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+

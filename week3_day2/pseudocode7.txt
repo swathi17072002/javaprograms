@@ -1,0 +1,44 @@
+//Suppose you are withdrawing money from the ATM.Suppose available notes are 500,200 and 100 in the ATM.
+//User has asked for withdrawal of money from the ATM.
+//Write an pseudocode to determine the minimum number of notes to be dispensed to the user for the required money.
+-----------------------------------------------------------------------------------------------------------------
+
+begin
+     declare the variables withdraw_money,count,i
+     read the amount as withdraw_money
+     initialize count=0
+     if (withdraw_money%100==0)
+       {
+            if (withdraw_money>=500)
+             {
+                 i=withdraw_money/500 
+                 withdraw_money=withdraw_money%500
+                 count=count+i
+             }
+            if (withdraw_money>=200)
+             {
+                 i=withdraw_money/200
+                 withdraw_money=withdraw_money%200
+                 count=count+i
+             }
+            if (withdraw_money>=100)
+             {
+                 i=withdraw_money/100
+                 withdraw_money=withdraw_money%100
+                 count=count+i
+             }
+            print count
+       }
+     else
+       {
+            print" money will be in the multiples of 100 only"
+       }
+stop
+     
+     
+
+     
+     
+     
+
+        

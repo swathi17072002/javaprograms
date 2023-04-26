@@ -1,0 +1,22 @@
+//pseudocode to find the difference between even sum and odd sum from 1 t0 100
+
+begin
+     declare the variables i,even_sum,odd_sum,difference
+     initialize i=1,even_sum=0,odd_sum=0
+     while(i<=100)
+     {
+        if (i%2!=0)
+         {
+             odd_sum=odd_sum+i
+         }
+        else
+         {
+             even_sum=even_sum+i
+         }
+        i<--i+1
+     }
+     compute difference = (even_sum-odd_sum)
+     print difference
+stop
+
+ 

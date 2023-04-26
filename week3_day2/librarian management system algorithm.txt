@@ -1,0 +1,25 @@
+//algorithm on librarian management system
+
+step1 : start
+step2 : welcome to the librarian management portal
+step3 : it display the options like professor,student,signin/signup
+step4 : select the user as the professor or student
+step5 : 5.1. if the user is new 
+                 print "create an account"
+        5.2. if user is not new
+                5.2.1.  print "login with user name or password"
+                5.2.2.  if login is unsuccesful
+                             print "reenter correct password and id"
+step6 : enter into the home page
+step7 : it displays the categories of list of books
+step8 : search for the required book
+step9 : select the required book or remove/denial book
+step10 : fill the details as per the requirement of generating the token 
+step11 : succesfully token has been generated 
+step12 : enter the token number which is received on mail/mobile number
+step13 : go to the librarian session,show the token id to the librarian/librarian will verifies the books as per requirement
+step14 : once the librarian verifies the token id 
+step15 : librarian will issue the book to the student
+step16 : a popup notification is shown "your book has been succesfully issued"
+step17 : return back the book before the end date to the librarian
+step18 : stop

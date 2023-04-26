@@ -1,0 +1,34 @@
+you are purchasing a mobile from a shop. shop owner want to give discount
+  if(cost>=100000) -----10% discount
+  if(cost<100000 and cost>50000) -----5% discount
+  in all other cases-----2% discount
+
+  20% GST will be added(on the actual price only)
+
+you need to write an pseudocode to determine the total price of the mobile phone
+----------------------------------------------------------------------------------------
+
+begin
+     declare the variables amount,discount,GST,final_amount
+     read the amount
+     compute GST=(20*amount)/100
+     if (amount>=100000)
+      {
+           discount=(10*amount)/100
+      }
+     else if (cost<100000 and cost>50000)
+      {
+           discount=(5*amount)/100
+      }
+     else
+      {
+           discount=(2*amount)/100
+      }
+     compute final_amount=(amount-discount)+GST
+     print final_amount
+stop
+     
+     
+       
+   
+     

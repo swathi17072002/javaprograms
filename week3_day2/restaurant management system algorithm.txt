@@ -1,0 +1,28 @@
+//algorithm on restaurent management system
+
+1.start 
+2.the owner/manager has build a online order management website then 
+3. website to be designed with some rules and regulations based on manager requirements 
+4.if the user is manager login  successful else login is unsuccessfull 
+5.home page is displayed with modules (order management,kitchen management,employee management)
+6. if user clicks on order management it displays
+   6.1.the number of orders/ pre booking orders placed by  a customer
+   6.2.tracking of orders of a customer
+   6.3.cancellation of orders and reasons by customer
+   6.4.feedbacks of an ordered food from the customer 
+7. if user clicks on kitchen management it displays
+   7.1.availability of food stock 
+   7.2.menu (tupes of dishes available)
+   7.3.food service operations
+   7.4.tracking food orders
+   7.5.availabilty of number.of staff in the kitchen 
+8.if user clicks on employee  management it displays
+   8.1.list of employes
+   8.2.can watch employee leaves
+   8.3.employee salary status/position of an employee
+   8.4.can watch employes time shifts/work progress
+   8.5.employee scheduling
+   8.6.generate/update the salaries of an employes
+   8.7.organize meetings
+9.stop
+
