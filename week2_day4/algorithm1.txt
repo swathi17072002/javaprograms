@@ -1,3 +1,7 @@
+//Suppose you are withdrawing money from the ATM.Suppose available notes are 500,200 and 100 in the ATM.
+//User has asked for withdrawal of money from the ATM.
+//Write an algorithm to determine the minimum number of notes to be dispensed to the user for the required money.
+
 step1 : start
 step2 : read the amount of money as withdraw_money
 step3 : initialize count<--0
