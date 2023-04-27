@@ -1,0 +1,49 @@
+write a pseudocode to estimate TDS based on an employees annual salary
+    1-700000------------->no TDS
+    >700000--------->       1-300000-->5%
+                       300000-600000-->10%
+                       600000-900000-->15%
+                       900000-1200000-->20%
+                       above 1200000-->30%
+
+ ---------------------------------------------------------------------------
+
+begin
+    numeric salary,TDS
+    print("enter the salary")
+    input salary
+    if (salary<=700000)
+     {
+         print("no TDS")
+     }
+    else
+     {
+         TDS = (5*300000)/100
+         TDS = TDS+(10*300000)/100
+         salary = salary-600000
+
+         if (salary<=300000){
+             TDS = TDS+(15*salary)/100
+             salary=0
+          }
+         else {
+              TDS = TDS+(15*300000)/100
+              salary=salary-300000
+          }
+
+
+          if (salary<=300000){
+             TDS = TDS+(20*salary)/100
+             salary=0
+          }
+          else {
+              TDS = TDS+(20*300000)/100
+              salary=salary-300000
+          }
+
+          if(salary!=0){
+              TDS = TDS+(30*salary)/100
+          }
+         print TDS
+     }
+stop
