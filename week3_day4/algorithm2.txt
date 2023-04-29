@@ -1,0 +1,10 @@
+// display 1,7,13,19,25,31,-----------78
+
+step1 : start
+step2 : initialize n=1
+step3 : while (n<=78)
+        {
+           print n
+           n=n+6
+        }
+step4 : stop

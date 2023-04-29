@@ -1,0 +1,11 @@
+//display all number from 100-150 which are divisible by 4.
+
+step1 : start
+step2 : for(i=100;i<=150;i++)
+         {
+           if (i%4==0)
+             {
+                print i
+             }
+         }
+step3 : stop 

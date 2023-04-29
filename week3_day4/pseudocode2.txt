@@ -1,0 +1,37 @@
+//Write the pseudocode to calculate the electricity bill of present month by reading the previous units and present units.
+             first 1-50 units-->2.30/unit
+             next 100 units---->2.75/unit
+             next 100 units---->3.50/unit
+             above 250 units--->4.50/unit
+  Finally add 18% GST on bill.
+-----------------------------------------------------------------------------------------------------
+
+begin
+    numeric previous_units,present_units,units,bill,final_bill
+    print("enter the previous units and present units")
+    input previous_units
+    input present_units
+    units=present_units-previous_units
+    if (units==0){
+        print("50 Rs")
+     }
+
+    else{
+          if (units<=50){
+             bill=units*2.30
+           }
+          else if (units<=150){
+             bill=(50*2.30)+((units-50)*2.75)
+           }
+          else if (units<=250){
+             bill=(50*2.30)+(100*2.75)+((units-150)*3.50)
+           }
+          else{
+             bill=(50*2.30)+(100*2.75)+(100*3.50)+((units-250)*4.50)
+           }
+         print("befotre GST, bill is",bill)
+         final_bill = ((18*bill)/100 )+bill
+         print("after GST ,bill is",final_bill)
+     }
+stop            
+ 

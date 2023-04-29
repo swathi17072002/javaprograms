@@ -1,0 +1,31 @@
+// read a number---> num 
+case 1. num is -ve then i want add vaue '2' for num---> 5 times
+case 2: numb is 0 then dispaly this 0---> for '3' times
+if num is positive
+case 3: if num is even then find square of this no ---> num*num
+case 4: if num is odd then substract value 1 from num-->
+--------------------------------------------------------------------
+
+step1 : start
+step2 : read the number as num
+step3 : if (num<0){
+             for(i=1;i<=5;i=i+1){
+                num=num+2
+              }
+            }
+step4 : else if (num==0){
+             for(i=1;i<=3;i=i+1){
+                print num
+                }
+            }
+step5 : else {
+            if(num%2==0){
+                     square_num=num*num
+                     print square_num
+              }
+            else{
+                     num=num-1
+                     print num
+             }
+          }
+step6 :stop
