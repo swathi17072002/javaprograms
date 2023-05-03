@@ -1,0 +1,21 @@
+TERNARY OPERATOR : ( ? : )
+ 1) It uses three operands
+ 2) (exp1 ? exp2 : exp3) 
+ --->in these first exp1 is evaluated, if exp1 is true then exp2 is evaluated and value of exp2 is the value of entire expression ,
+     otherwise exp3 is evaluated and value of exp3 is the value of entire expression.
+
+PROGRAM :
+
+//program to find the greatest number of two numbers using ternary operator
+import java.util.Scanner;
+public class TernaryOperator {
+  public static  void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int num1,num2,num3;
+    System.out.println("enter the values of a and b");
+    num1 = sc.nextInt();
+    num2 = sc.nextInt();
+    num3 = (num1>num2)?num1:num2;
+    System.out.println("greatest number of "+num1+" and "+num2+" is "+num3);
+  }
+}

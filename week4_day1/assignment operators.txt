@@ -1,0 +1,43 @@
+
+ASSIGNMENT OPERATORS : 
+   =  --> assignment operator(assigning left side value to the right side variable)
+ shorthand assignment ---> ex: 1) a+=5 --> a=a+5
+                               2) a-=5 --> a=a-5
+                               3) a*=5 --> a=a*5
+                               4) a/=5 --> a=a/5
+                               5) a%=5 --> a=a%5
+PROGRAM :
+
+//program on assignment operators
+
+import java.util.Scanner;
+public class AssignementOperator {
+  public static  void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int a,variable;
+    System.out.println("enter a value");      
+    a = sc.nextInt();
+    //assigning value using =
+    variable = a;
+    System.out.println("var using = : "+variable);
+    //assigning value using +=
+    variable += a;
+    System.out.println("var using += :"+variable);
+    //assigning value using -=
+    variable -= a;
+    System.out.println("var using -= :"+variable);
+    //assigning value using *=
+    variable *= a;
+    System.out.println("var using *= : "+variable);
+    //assigning value using /=
+    variable /= a;
+    System.out.println("var using /= :"+variable);
+    //assigning value using %=
+    variable %= a;
+    System.out.println("var using %= :"+variable);
+  }
+}
+
+
+
+    

@@ -1,0 +1,36 @@
+INCREMENT OPERATOR : ++
+  1) It increment the operand value by 1 and stores the result in operand
+  2) Increment operator is a unary operator
+  3) There are two types of increment operators
+          i)  pre_increment (ex : ++a)
+          ii) post_increment (ex : a++)
+
+DECREMENT OPERATOR : --
+   1) It decrement the operand value by 1 and stores the result in operand
+   2) Decrement operator is a unary operator
+   3) There are two types of decrement operators
+          i)  pre_decrement (ex : --a)
+          ii) post_decrement (ex : a--)
+
+PROGRAM :
+
+//program on increment and decrement operators
+import java.util.Scanner;
+public class IncDecOperators {
+  public static  void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int a,b,c,d,e;
+    System.out.println("enter a value");      
+    a = sc.nextInt();
+    System.out.println("value of a is :"+a);
+    b = a++;
+    System.out.println("value of b is :"+b);
+    c = ++a;
+    System.out.println("value of c is :"+c);
+    d = a--;
+    System.out.println("value of d is :"+d);
+    e = --a;
+    System.out.println("value of e is :"+e);
+  }
+}
+

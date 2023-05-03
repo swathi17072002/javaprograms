@@ -1,0 +1,20 @@
+Java Scanner Class :
+
+--> The Scanner class of the java.util package is used to read input data from different sources like input streams,user,files etc.
+--> We need to import the java.util.scanner package before we can use the scanner class
+      import java.util.Scanner;
+-->After importing the package,create Scanner class objects.
+      Scanner sc = new Scanner(System.in);
+
+Scanner class  methods :
+   
+    nextInt()  --->   read an int value from the user
+    nextFloat() ---->  read a float value from the user
+    nextBoolean() ----> reads a boolen value from the user
+    nextLine() ---> reads a line of text from the user
+    next() -------> reads a word from the user  (it reads upto blankspace)
+    nextByte() ---->  read a byte value from the user
+    nextDouble() --->  read a double value from the user
+    nextShort() ----->   read a short value from the user
+    nextLong() ----->  read a long value from the user 
+

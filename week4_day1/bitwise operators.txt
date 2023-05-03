@@ -1,0 +1,30 @@
+BITWISE OPERATORS : &,|,^,~,<<,>>
+ 1) Bitwise operators are used to perform the bit by bit manipulations.
+ 2) Bitwise operators are works on integers only
+ 3) Bitwise operators are
+     i. &  ---> bitwise AND
+     i. |  ---> bitwise OR
+     i. ^  ---> bitwise EX_OR
+     i. !  ---> one's complement
+     i. << ---> left shift
+     i. >> ---> right shift
+ 
+PROGRAM :
+
+//program on bitwise operators
+import java.util.Scanner;
+public class BitwiseOperators {
+  public static  void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int a,b;
+    System.out.println("enter the values of a and b");
+    a=sc.nextInt();
+    b=sc.nextInt();
+    System.out.println(" a&b :"+(a&b));
+    System.out.println(" a|b :"+(a|b));
+    System.out.println(" a^b :"+(a^b));
+    System.out.println(" ~a :"+(~a));
+    System.out.println(" a<<2 :"+(a<<2));
+    System.out.println(" a>>3 :"+(a>>3));
+  }
+}
