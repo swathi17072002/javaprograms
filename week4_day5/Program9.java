@@ -7,7 +7,7 @@ public class Program9{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int age_in_year;
-    System.out.println("enter the age in the format (yyyy-mm-dd)");
+    System.out.println("enter date of birth in the format (yyyy-mm-dd)");
     String dateofbirthstring = sc.nextLine();
     LocalDate dateofbirth = LocalDate.parse(dateofbirthstring);
     LocalDate currentdate = LocalDate.now();
