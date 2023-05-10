@@ -1,5 +1,6 @@
-import java.util.Scanner;
+//WAP to perform the arithmetic operations
 
+import java.util.Scanner;
 public class FirstProgram {
   public static  void main(String[] args) {
     Scanner sc=new Scanner(System.in);
