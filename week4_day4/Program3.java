@@ -1,3 +1,5 @@
+//WAP to read the boolean value and print opposite value
+
 import java.util.Scanner;
 class Program3 {
     public static void main(String[] args) {
