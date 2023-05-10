@@ -1,4 +1,4 @@
-//WAP on assignment operators
+//WAP on increment and decrement oerators operators
 
 import java.util.Scanner;
 public class Program2 {
