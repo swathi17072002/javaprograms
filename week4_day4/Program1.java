@@ -9,12 +9,14 @@ public class Program1{
     System.out.println("1. Celsius");
     System.out.println("2. Fahrenheit");
     choice = sc.nextInt();
-    System.out.println("enter the temperature according to choice");
-    temp = sc.nextFloat();
    if (choice==1){
+           System.out.println("enter the Celsius temperature");
+           temp = sc.nextFloat();
            System.out.println("temperature in Fahrenheit is :"+((temp*1.8)+32));
   }
    else if (choice==2) {
+          System.out.println("enter the Fahrenheit temperature");
+          temp = sc.nextFloat();
           System.out.println("temperature in  Celsius is :"+((temp-32)/1.8));
      }
   else{
