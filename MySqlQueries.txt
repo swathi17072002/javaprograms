@@ -1,0 +1,5 @@
+question 1)  select PatientID, ParentName, Age from Patients where PatientsID in(select PatientID from PatientsCheckup where weights>60) order by ParentName;
+Question 2) select * from Patients where PatientID in(select PatientID from PatientsCheckup where ConsultationFees between 400 and 700);
+Question 3)select concat(first_name,' ',last_name) as name from customer where customer_id not in (select customer_id from Product);
+Question 4)select product_name,custemer_name from customer ct where amount=max(amount) group by product_name inner join product pt on ct.custemer_id=pt.custemer_id;
+Question 5) select product_name,custemer_name from customer ct where amount=max(amount) group by product_name inner join product pt on ct.custemer_id=pt.custemer_id;
