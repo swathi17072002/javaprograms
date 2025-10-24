@@ -5,7 +5,7 @@ BITWISE OPERATORS : &,|,^,~,<<,>>
      i. &  ---> bitwise AND
      i. |  ---> bitwise OR
      i. ^  ---> bitwise EX_OR
-     i. !  ---> one's complement
+     i. ~  ---> bitwise Not(unary)
      i. << ---> left shift
      i. >> ---> right shift
  
@@ -28,3 +28,4 @@ public class BitwiseOperators {
     System.out.println(" a>>3 :"+(a>>3));
   }
 }
+
